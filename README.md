@@ -4,4 +4,4 @@
 ![image info](./Visuals/ifoHack-EventBritebanner_mitDLR_devpost.png)
 -->
 
-<img src="file://./Visuals/ifoHack-EventBritebanner_mitDLR_devpost.png" alt="alt text" width="200"/>
+<img src="./Visuals/ifoHack-EventBritebanner_mitDLR_devpost.png" alt="alt text" width="200"/>
