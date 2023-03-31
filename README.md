@@ -7,11 +7,11 @@
 <img src="./Visuals/ifoHack-EventBritebanner_mitDLR_devpost.png" alt="alt text" width="80%"/>
 </p>
 
->For the first time, the ifo Institute is organizing its very own hackathon – the ifoHack 2023.
->
->The ifo Institute combines **sharp economic reasoning** and expert knowledge in **empirical methods**; using current advances in computational methods and **open-source tools** to leverage both yields enormous potential to address policy-oriented economic and social questions. For example, participants will build a predictive business climate model based on microdata provided by the ifo Institute and present its operating value via a web interface.
->
->Our partners **KfW Bank** (Kreditanstalt für Wiederaufbau) and **Deutsches Zentrum für Luft- und Raumfahrt** (German Aerospace Center) will also bring exciting challenges such as using Natural Language Processing for extracting sentiment from financial newspaper articles, predicting user behavior, or using spatial data for predicting real estate prices and will offer exclusive insights into their research activities.
+For the first time, the ifo Institute is organizing its very own hackathon – the ifoHack 2023.
+
+The ifo Institute combines **sharp economic reasoning** and expert knowledge in **empirical methods**; using current advances in computational methods and **open-source tools** to leverage both yields enormous potential to address policy-oriented economic and social questions. For example, participants will build a predictive business climate model based on microdata provided by the ifo Institute and present its operating value via a web interface.
+
+Our partners **KfW Bank** (Kreditanstalt für Wiederaufbau) and **Deutsches Zentrum für Luft- und Raumfahrt** (German Aerospace Center) will also bring exciting challenges such as using Natural Language Processing for extracting sentiment from financial newspaper articles, predicting user behavior, or using spatial data for predicting real estate prices and will offer exclusive insights into their research activities.
 
 ## Challenges
 
