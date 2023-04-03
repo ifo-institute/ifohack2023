@@ -19,6 +19,31 @@ Your dashboard should look like the following:
 Make sure that both machines are running (green ticks). If this is not the case contact XXXXX.
 
 ### SSH connection
-In order to run the machines .. tcb
+#### Starting SSH connection
+Your working machine will be ```work-vm-prod-xx```. In order to access the VM, you need to start a SSH connection and use the [Chrome Remote Desktop App](https://remotedesktop.google.com/access).
 
-![image](https://user-images.githubusercontent.com/44307642/228554465-ac750223-fe20-4527-80d1-5d4e949e7860.png)
+![ssh_connection](https://user-images.githubusercontent.com/44307642/229470086-e92e99ac-1ebc-46ba-8777-8089c458f899.gif)
+
+#### Copy SSH key
+After clicking on the SSH connection in GCP, keep the window opened, use the Chrome Remote Desktop App and set up a new SSH connection on the left hand side. After clicking through the steps, copy the Debian Linux section (starts with ```DISPLAY...```). 
+
+![chrome desktop](https://user-images.githubusercontent.com/44307642/229471429-9aebcfa2-f035-41dd-aaaf-f66cdb514225.gif)
+
+#### Creating your own PIN
+Paste the block to the previously opened ```ssh.cloud.google.com``` window. If it was successful, you are prompted to enter a PIN of at least six digits. 
+
+![image](https://user-images.githubusercontent.com/44307642/229472546-ffb7dcfe-e494-4602-bb23-3cea17b9c049.png)
+
+Once you are done with this step, you should be able to see the ```jump-vm-prod-xx``` as online in remotedesktop.google.com/access
+
+![image](https://user-images.githubusercontent.com/44307642/229472760-b2ab0736-4341-4abb-aa6f-3a13b907302b.png)
+
+#### Accessing your GUI
+You can now access the jump-vm. You just have to enter the PIN that you previously created and then click on connect, such that you will be connected to the GUI of the work-vm. 
+
+![jump-vm-connection](https://user-images.githubusercontent.com/44307642/229474337-9a404d85-db24-4236-8805-d9d79e7c077a.gif)
+
+That's it! That's your working environment for the ifoHack!
+
+
+
