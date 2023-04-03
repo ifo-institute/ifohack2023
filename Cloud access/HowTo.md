@@ -20,7 +20,7 @@ Make sure that both machines are running (green ticks). If this is not the case 
 
 ### SSH connection
 #### Starting SSH connection
-In order to access the VM, you need to start a SSH connection and use the [Chrome Remote Desktop App](https://remotedesktop.google.com/access).
+In order to access the VM, you need to start a SSH connection with jump-vm and use the [Chrome Remote Desktop App](https://remotedesktop.google.com/access).
 
 ![ssh_connection](https://user-images.githubusercontent.com/44307642/229470086-e92e99ac-1ebc-46ba-8777-8089c458f899.gif)
 
