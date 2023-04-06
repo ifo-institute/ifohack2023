@@ -49,6 +49,10 @@ From the admin-vm create a conda environment with `conda create --prefix <path-t
 
 Then zip and copy the created environment directory to the work-vm `sourcedata` folder, e.g. `work-vm-prod-01`.
 
+##### Install the packages on the work-vm
+
+From the work-vm, copy the zipped conda packages from `sourcedata` to the desktop, then unzip it. In the terminal of the work-vm, run `conda install <path-to-env-dir>`, to install the packages.
+
 That's it! That's your working environment for the ifoHack!
 
 
