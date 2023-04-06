@@ -43,6 +43,12 @@ You can now access the jump-vm. You just have to enter the PIN that you previous
 
 ![jump-vm-connection](https://user-images.githubusercontent.com/44307642/229474337-9a404d85-db24-4236-8805-d9d79e7c077a.gif)
 
+
+#### Creating a `conda` environment
+From the admin-vm create a conda environment with `conda create --prefix <path-to-new-env> python pip <any-other-packages>` or if you have a conda environment file, say `environment.yml`, run `conda env create -f environment.yml`.
+
+Then zip and copy the created environment directory to the work-vm `sourcedata` folder, e.g. `work-vm-prod-01`.
+
 That's it! That's your working environment for the ifoHack!
 
 
