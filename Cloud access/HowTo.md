@@ -51,7 +51,12 @@ Then zip and copy the created environment directory to the work-vm `sourcedata` 
 
 ##### Install the packages on the work-vm
 
-From the work-vm, copy the zipped conda packages from `sourcedata` to the desktop, then unzip it. In the terminal of the work-vm, run `conda install <path-to-env-dir>`, to install the packages.
+From the work-vm, copy the zipped conda packages from `sourcedata` to the desktop, then unzip it. In the terminal of the work-vm, run `conda activate <path-to-env-dir>`, to activate the new conda environment, or just copy the code block below:
+
+```sh
+unzip source-data/<new-env>.zip -d ~/Desktop
+conda activate ~/Desktop/<new-env>
+```
 
 That's it! That's your working environment for the ifoHack!
 
