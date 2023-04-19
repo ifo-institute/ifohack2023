@@ -1,3 +1,0 @@
-streamlit
-torch
-transformers
