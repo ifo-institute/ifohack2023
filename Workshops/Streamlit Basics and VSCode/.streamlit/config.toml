@@ -1,0 +1,11 @@
+[theme]
+base = "light"
+primaryColor = "#0d4080"
+backgroundColor = "#ffffff"
+secondaryBackgroundColor = "#cfd9e6"
+textColor = "#1d1d1d"
+font = "sans serif"
+
+[server]
+runOnSave = true
+port=8080
