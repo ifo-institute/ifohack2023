@@ -7,10 +7,12 @@ To setup the programming environment you'd need to install the packages in the `
 
 I would suggest using `conda` to create an environment and install the packages with:
 ```
-conda create -n workshop --file requirements.txt
+conda create -n workshop pip python
 
 # activate
 conda activate workshop
+
+pip install -r requirements.txt
 ```
 
 Alternatively run (if you don't have conda): `pip install -r requirements.txt`
