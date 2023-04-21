@@ -3,7 +3,7 @@ from PIL import Image
 
 
 def init():
-    logo = Image.open("logo.png")
+    logo = Image.open("images/logo.png")
     st.set_page_config(page_title="Hack 2023", page_icon=logo)
 
     hide_streamlit_style = """

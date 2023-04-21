@@ -1,6 +1,5 @@
 import streamlit as st
 from transformers import AutoTokenizer, T5ForConditionalGeneration
-
 from utils import init
 
 init()
@@ -53,7 +52,7 @@ if st.checkbox("Show code", key=1):
     col1, col2 = st.columns(2)
 
     with col1:
-        fro = st.radio("From", ("English"))
+        fro = st.write("From: English")
 
     with col2:
         to = st.radio("To", ("German", "French"), index=1)
@@ -161,7 +160,8 @@ if st.checkbox("Show code", key=3):
 
 ###############################################################################
 st.subheader("Try other tasks")
-st.markdown("""
+st.markdown(
+    """
 - Text classification/Sentiment analysis
 - Text generation
 - Question answering
@@ -171,5 +171,5 @@ st.markdown("""
 - https://huggingface.co/docs/transformers/model_doc/t5#resources
 - https://towardsdatascience.com/hands-on-googles-text-to-text-transfer-transformer-t5-with-spark-nlp-6f7db75cecff
 - https://ai.googleblog.com/2020/02/exploring-transfer-learning-with-t5.html
-""")
-
+"""
+)
