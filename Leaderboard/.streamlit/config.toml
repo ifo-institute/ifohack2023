@@ -8,5 +8,6 @@ font = "sans serif"
 
 [server]
 runOnSave = true
+
 #[ui]
 #hideTopBar=true
