@@ -24,4 +24,4 @@ streamlit run Welcome.py
 
 or checkout the [deployed app](https://streamlit-workshop.victortuekam.com).
 
-![streamlit-workshop](images/qrcode.png)
+![streamlit-workshop](https://github.com/ifo-institute/ifohack2023/blob/web-workshop/Workshops/Streamlit%20Basics%20and%20VSCode/images/qrcode.png | width=100)
