@@ -11,8 +11,8 @@
 
 ## 1. Setting up git
 open a terminal and execute the following commands: 
-- `git config --global user.email user<your-number>-ifohack2023@ifo.de`
-- `git config --global user.name user<your-number>-ifohack2023`
+- `git config --global user.email user<your-number>-ifohack2023@ifo.de` (replace "<your-number>" with your actual user number. E.g., `user07-ifohack2023@ifo.de`)
+- `git config --global user.name user<your-number>-ifohack2023` (replace "<your-number>" with your actual user number. E.g., `user07-ifohack2023`)
 
 
 ## 2. Setting up Gitea
@@ -20,7 +20,7 @@ open a terminal and execute the following commands:
 - open a browser on the VM and visit `http://10.0.0.6:3000`
 - click "Sign in" 
 - Enter username and password
-    - username: `user<your-number>-ifohack2023`
+    - username: `user<your-number>-ifohack2023` (replace "<your-number>" with your actual user number. E.g., `user07-ifohack2023`)
     - password: same as your username on first login. You will be prompted to change it on the next screen
 
 ### Project owner: 
@@ -86,7 +86,7 @@ temp/*
 1. open a terminal in your project directory
 2. execute `git add .`  (or explicitly name the files to add)
 3. execute `git commit -m "<your commit message>"` (include a helpful commit message about your changes)
-4. push the changes to gitea: `git push -u origin <branch-name>`  
+4. push the changes to gitea: `git push -u origin <branch-name>` (Replace "<branch-name>" with the name of the branch you work on and you want to push to. E.g. `git push -u origin main`)
 
 
 
