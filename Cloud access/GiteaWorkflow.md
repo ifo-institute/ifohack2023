@@ -26,15 +26,15 @@ open a terminal and execute the following commands:
 ### Project owner: 
 #### Create repository
 - create a new repository
-![create-repository](../assets/create-repo.png)
+![create-repository](../assets/create_repo.png)
 - You can choose any name you want for your repository
 - **Important**: Make sure to check "Make Repository Private", so only you and your team members can access it. 
 
 #### Add collaborators
 - go to repository settings
-![repository-settings](../assets/repo_settings.PNG)
+![repository-settings](./assets/repo_settings.png)
 - add collaborators 
-![add-collaborator](../assets/add_collaborator.PNG)
+![add-collaborator](./assets/add_collaborator.png)
 
 
 ## 3. Create local repository
@@ -56,7 +56,7 @@ open a terminal and execute the following commands:
 
 #### Connect to remote repository: 
 - Copy the URL to your repository 
-![copy-url](../assets/copy_repo.png)
+![copy-url](./assets/copy_repo.png)
 - in your project directory execute `git remote add origin <url>` (replace "<url>" with the actual url you just copied)
 
 
@@ -65,7 +65,7 @@ open a terminal and execute the following commands:
 
 ### Collaborators: 
 - Go to Gitea and copy the url to your project 
-![copy-url](../assets/copy_repo.png)
+![copy-url](./assets/copy_repo.png)
 - In your local project_directory, execute `git clone <URL>` (replace "<URL>" with the actual url you just copied).
 - You should be prompted to enter your previously set up Gitea username and password.
 
