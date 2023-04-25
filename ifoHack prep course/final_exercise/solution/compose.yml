@@ -1,0 +1,28 @@
+version: "3.8"
+
+services:
+  iris_model_api:
+    container_name: iris_model_api
+    image: iris_model_api
+    ports: ["8080:8080"]
+    healthcheck:
+      test: wget http://iris_model_api:8080 || exit 1
+      interval: 1s
+      timeout: 10s
+      retries: 20
+      start_period: 5s
+  
+  frontend:
+    container_name: frontend
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    ports: ["8502:8502"]
+    depends_on:
+      - iris_model_api
+    healthcheck:
+      test: wget http://frontend:8502 || exit 1
+      interval: 1s
+      timeout: 10s
+      retries: 20
+      start_period: 5s
