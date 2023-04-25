@@ -48,10 +48,10 @@ def plot_best_fit(X, y, model):
     pyplot.title(type(model).__name__)
     pyplot.show()
 
-    ##############################
+
     #print your Plot in the page (https://docs.streamlit.io/library/api-reference/charts/st.pyplot)
     #TODO
-    ##############################
+
 
 def run():
     # load dataset
@@ -66,17 +66,15 @@ def run():
 
     # plot the line of best fit
     plot_best_fit(X, y, model)
-#####################################
+
     #Print a subheader for your page with the name 'Model Evaluation' (https://docs.streamlit.io/library/api-reference/text/st.subheader)
     #TODO
+
     #print your evaluation results ( https://docs.streamlit.io/library/api-reference/write-magic/st.write)
     #TODO
-#####################################
+
 
 st.write('''
 # Welcome to the Web Application
-# this is the home page 
-
-
 ''')
 run()
