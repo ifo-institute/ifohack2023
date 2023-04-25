@@ -47,9 +47,10 @@ def plot_best_fit(X, y, model):
     # show the plot
     pyplot.title(type(model).__name__)
     pyplot.show()
-    ##############################
+
+    #Task
     st.pyplot(pyplot)
-    ##############################
+
 
 def run():
     # load dataset
@@ -71,8 +72,5 @@ def run():
 
 st.write('''
 # Welcome to the Web Application
-# this is the home page 
-
-
 ''')
 run()
