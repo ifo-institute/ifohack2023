@@ -12,4 +12,3 @@ services:
     build: "${PROJECT}/Workshops/Streamlit Basics and VSCode"
     ports:
       - "8080:8080"
-    envir
