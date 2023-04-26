@@ -1,0 +1,15 @@
+version: "3.9"
+
+project-env: &project
+    PROJECT: "${HOME}/ifohack2023"
+
+services:
+  leaderboard:
+    build: "${PROJECT}/Leaderboard"
+    ports:
+      - "8081:8081"
+  streamlit-workshop:
+    build: "${PROJECT}/Workshops/Streamlit Basics and VSCode"
+    ports:
+      - "8080:8080"
+    envir
