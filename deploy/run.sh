@@ -6,19 +6,9 @@
 set -x
 
 PROJECT="$HOME/ifohack2023"
-APP1="$PROJECT/Leaderboard"
-APP2="$PROJECT/Workshops/Streamlit Basics and VSCode"
 
+docker build -t leaderboard $PROJECT/Leaderboard
+docker build -t streamlit-workshop "$PROJECT/Workshops/Streamlit Basics and VSCode/"
 
-if { conda env list | grep "ifohack.live"; } >/dev/null 2>&1; then
-    conda activate "ifohack.live"
-else
-    conda create -y -n ifohack.live pip
-    conda activate "ifohack.live"
-fi
-
-pip install -r "$APP1/requirements.txt"
-pip install -r "$APP2/requirements.txt"
-
-streamlit run "$APP1/app.py" --server.port 8081 > /dev/null 2>&1 &
-streamlit run "$APP2/Welcome.py" --server.port 8080 > /dev/null 2>&1 &
+docker run -d -p 8081:8081 leaderboard
+docker run -d -p 8080:8080 streamlit-workshop
