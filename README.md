@@ -4,7 +4,7 @@
 ![image info](./Visuals/ifoHack-EventBritebanner_mitDLR_devpost.png)
 -->
 <p align="center" width="100%" >
-<img src="./Visuals/ifoHack-EventBritebanner_mitDLR_devpost.png" alt="alt text" width="100%"/>
+<img src="ifoHack-EventBritebanner_mitDLR_devpost.png" alt="alt text" width="100%"/>
 </p>
 
 For the first time, the ifo Institute is organizing its very own hackathon – the ifoHack 2023.
