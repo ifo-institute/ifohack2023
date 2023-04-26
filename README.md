@@ -17,9 +17,9 @@ Our partners **KfW Bank** (Kreditanstalt für Wiederaufbau) and **Deutsches Zent
 
 1. **ifo "KT" Main challenge**
 
->In the ifo Business Survey every month approximately 9,000 German firms are surveyed on their current situation (status quo), recent developments (ex-post), and their plans and expectations for the near future (ex-ante).
+>In the ifo Business Survey every month approximately 9,000 German firms are surveyed on their current situation (status quo), recent developments (ex-post), and their plans and expectations for the near future (ex-ante). 
 >
->Build a model which **predicts the categorical answers** of firms on various questions in the upcoming month. This model can be based on past answers and/or firm-specific information in the micro data of the survey (e.g., firm-size, region, sector). Which external sources can be used to predict firm-specific answers?
+> Build a model which **predicts the categorical answers of firms** on various questions in the next 12 months. This model can be based on past answers and/or firm-specific information in the micro data of the survey (e.g., firm-size, region, sector).
 
 2. **KfW challenge**
 >KfW is the promotional bank of the Federal Republic of Germany - the transformation of the economy and society to improve economic, ecological and social living conditions worldwide is KfW's primary objective. With a balance of more than €500 billion KfW is the largest national promotional lender in the world and a reliable partner for small and midsize enterprises (SMEs), corporates and financial institutions worldwide. KfW’s ongoing regular operations span a wide array of promotional activities. They comprise lending to SMEs, energy efficiency and environmental protection, housing, infrastructure, and education, as well as project and export finance, and development cooperation. Hence, our credit analysts face the challenging task of assessing the credit risk – i.e. the possibility of a borrower defaulting on his debt – of a diverse cast of counterparties. As such they need to stay on top of current and past news developments on a global level.
