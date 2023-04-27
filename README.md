@@ -24,9 +24,9 @@ Our partners **KfW Bank** (Kreditanstalt für Wiederaufbau) and **Deutsches Zent
 2. **KfW challenge**
 >Our credit analysts face the challenging task of assessing the credit risk – i.e. the possibility of a borrower defaulting on his debt – of a diverse cast of counterparties. As such they need to stay on top of current and past news developments on a global level.
 >
-Can you help them get a grip on the news?
+>Can you help them get a grip on the news?
 >
-You are provided with meta information on a set of entity articles published after 01.03.2022.
+>You are provided with meta information on a set of entity articles published after 01.03.2022.
 Analyze the data in order to provide useful insights.
 Predict the likelihood of an article being read by a credit analyst.
 
