@@ -5,6 +5,6 @@ from utils import init
 init()
 
 st.title(":blue[A] gentle introduction to Streamlit")
-image = Image.open("gentle.jpg")
+image = Image.open("images/gentle.jpg")
 
 st.image(image)
