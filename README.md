@@ -4,7 +4,7 @@
 ![image info](./Visuals/ifoHack-EventBritebanner_mitDLR_devpost.png)
 -->
 <p align="center" width="100%" >
-<img src="./Visuals/ifoHack-EventBritebanner_mitDLR_devpost.png" alt="alt text" width="100%"/>
+<img src="ifoHack-EventBritebanner_mitDLR_devpost.png" alt="alt text" width="100%"/>
 </p>
 
 For the first time, the ifo Institute is organizing its very own hackathon – the ifoHack 2023.
@@ -17,11 +17,12 @@ Our partners **KfW Bank** (Kreditanstalt für Wiederaufbau) and **Deutsches Zent
 
 1. **ifo "KT" Main challenge**
 
->In the ifo Business Survey every month approximately 9,000 German firms are surveyed on their current situation (status quo), recent developments (ex-post), and their plans and expectations for the near future (ex-ante).
+>In the ifo Business Survey every month approximately 9,000 German firms are surveyed on their current situation (status quo), recent developments (ex-post), and their plans and expectations for the near future (ex-ante). 
 >
->Build a model which **predicts the categorical answers** of firms on various questions in the upcoming month. This model can be based on past answers and/or firm-specific information in the micro data of the survey (e.g., firm-size, region, sector). Which external sources can be used to predict firm-specific answers?
+> Build a model which **predicts the categorical answers of firms** on various questions in the next 12 months. This model can be based on past answers and/or firm-specific information in the micro data of the survey (e.g., firm-size, region, sector).
 
 2. **KfW challenge**
+
 >KfW is the promotional bank of the Federal Republic of Germany. The transformation of the economy and society to improve economic, ecological and social living conditions worldwide is KfW's primary objective.
 Our credit analysts face the challenging task of assessing the credit risk – i.e. the possibility of a borrower defaulting on his debt – of a diverse cast of counterparties. As such they need to stay on top of current and past news developments on a global level.
 >

@@ -1,0 +1,15 @@
+version: "3.9"
+
+services:
+  leaderboard:
+    build: "${PROJECT}/Leaderboard"
+    ports:
+      - "8081:8081"
+    environment:
+      - PROJECT
+  streamlit-workshop:
+    build: "${PROJECT}/Workshops/Streamlit Basics and VSCode"
+    ports:
+      - "8080:8080"
+    environment:
+      - PROJECT
