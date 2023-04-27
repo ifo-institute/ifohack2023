@@ -9,3 +9,6 @@ font = "sans serif"
 [server]
 runOnSave = true
 port = 8081
+
+[ui]
+hideTopBar = true
