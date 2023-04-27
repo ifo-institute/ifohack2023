@@ -4,7 +4,9 @@ from PIL import Image
 
 def init():
     logo = Image.open("logo.png")
-    st.set_page_config(page_title="Hack 2023", page_icon=logo)
+    st.set_page_config(
+        page_title="Hack 2023", page_icon=logo, initial_sidebar_state="collapsed"
+    )
 
     hide_streamlit_style = """
     <style>
@@ -13,6 +15,8 @@ def init():
        height: 0%;
        position: fixed;
     }
+    #MainMenu {visibility: hidden;}
+    #root > div:nth-child(1) > div > div > div > div > section > div {padding-top: 0rem;}
     footer {visibility: hidden;}
     </style>
     """
