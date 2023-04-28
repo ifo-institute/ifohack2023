@@ -22,6 +22,6 @@ Alternatively run (if you don't have conda): `pip install -r requirements.txt`
 streamlit run Welcome.py
 ```
 
-or checkout the [deployed app](https://streamlit-workshop.victortuekam.com).
+or checkout the [deployed app](https://streamlit-workshop.ifohack.live).
 
 <img src="images/qrcode.png" width="250" />
