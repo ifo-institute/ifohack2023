@@ -8,7 +8,7 @@ work_folder = "ifo-de-vo-ifohack2023-admin-prod-analysis-data-work"
 
 # read eval dataset (ground truth)
 df_eval = pl.read_csv(
-    "IBS_paneldata_eval.csv",
+    "IBS_paneldata_public_eval.csv",
     has_header=True,
 ).with_columns(pl.all().cast(pl.Int64))
 
