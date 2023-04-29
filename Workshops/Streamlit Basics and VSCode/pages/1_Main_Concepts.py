@@ -43,7 +43,6 @@ st.write(df)
 
 if st.checkbox("Show code", key=1):
     code = """
-    st.title(":blue[Main] concepts")
     st.subheader("Display a dataframe")
 
     df = pd.DataFrame(

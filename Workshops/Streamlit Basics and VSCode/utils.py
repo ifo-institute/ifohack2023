@@ -13,6 +13,7 @@ def init():
        height: 0%;
        position: fixed;
     }
+    #root > div:nth-child(1) > div > div > div > div > section > div {padding-top: 0rem;}
     footer {visibility: hidden;}
     </style>
     """
