@@ -93,7 +93,7 @@ if os.path.isfile(filename):
         use_container_width=True,
         height=(len(df_kfw) + 1) * 35 + 3,
     )
-    st.subheader("DLR Challenge, ")
+    st.subheader("DLR Challenge, R squared")
     st.dataframe(
         df_dlr.style.applymap(
             highlight_cols, subset=pd.IndexSlice[:, ["challenge"]]
