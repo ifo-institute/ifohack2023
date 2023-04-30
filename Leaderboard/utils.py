@@ -5,7 +5,10 @@ from PIL import Image
 def init():
     logo = Image.open("logo.png")
     st.set_page_config(
-        page_title="Hack 2023", page_icon=logo, initial_sidebar_state="collapsed"
+        page_title="Hack 2023",
+        layout="wide",
+        page_icon=logo,
+        initial_sidebar_state="collapsed",
     )
 
     hide_streamlit_style = """
