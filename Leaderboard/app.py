@@ -38,7 +38,7 @@ if os.path.isfile(filename):
     df = pd.read_csv(filename)
     df["members"] = df["members"].str.split(";")
 
-    df["score"] = df["score"].round(2)
+    df["score"] = df["score"].round(4)
     df.sort_values(by="score", ascending=False, inplace=True, ignore_index=True)
 
     n_submissions = len(df)
