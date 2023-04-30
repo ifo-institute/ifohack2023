@@ -66,7 +66,7 @@ if os.path.isfile(filename):
         )
 
     st.dataframe(
-        df.style.format(subset=["score"], formatter="{:.2f}"),
+        df.style.format(subset=["score"], formatter="{:.4f}"),
         use_container_width=True,
         height=(len(df) + 1) * 35 + 3,
     )
